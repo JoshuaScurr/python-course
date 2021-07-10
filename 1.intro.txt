@@ -1,0 +1,36 @@
+Downloads
+---------
+
+Download and install Python3
+https://www.python.org/ftp/python/3.9.6/python-3.9.6-amd64.exe
+
+Open a command prompt/powershell (eg. from start menu - type "powershell" and hit enter). Type `python` (without the `backticks`) and hit enter. If it runs, make sure it says "Python 3.9.x..." at the top. If not, contact me. If it says something along the line of "Command 'python' not found", restart computer and try again - if still doesn't work, contact me.
+
+Download a text editor of your choice. I would recommend VS Code ( https://code.visualstudio.com/ ) - it is the absolute standard currently, but others do also exist (eg. Atom, Notepad++, and Micro). The rest of this course will assume VS Code.
+
+VS Code setup (ignore if N/A, obviously)
+----------------------------------------
+
+If lines are continuing off the edge of the window, do Ctrl+Shift+P, search "toggle word wrap", and hit enter.
+
+Open the extensions bar (Ctrl+Shift+X)
+- Search for "Python", and install the one by Microsoft (should have a little * next to it)
+- Search for "Jupyter", and install the one by Microsoft (should have a little * next to it)
+- Search for "Rainbow Brackets", and install the one by 2gua
+- (optional, but highly recommended) Search for, and install, the following colour schemes:
+    - Ayu
+    - Dracula Official
+    - Nord
+- (optional, but highly recommended) Search for, and install "Chalice Icon Theme" by Artem Laman
+    - apply this by doing Ctrl+Shift+P, searching "file icon theme", pressing enter, then selecting "Chalice"
+
+Do Ctrl+Shift+P and search "color theme", press enter, then select one you like - you might want to go through them again when you have the next file open. It's important to have a theme that you like and find easy on the eyes, as most of programming is looking at text, trying to identify key symbols (words, special characters, etc.)
+
+From now on, the process of using Ctrl+Shift+P will be called "use the launcher" - it should be clear by now it's very useful.
+
+Use the launcher to open keyboard shortcuts, and search for "terminal". Set "Open New External Terminal" to something comfortable - the course will assume Ctrl+Shift+C (default, I think)
+
+Open the folder containing this course by hitting Ctrl+K, then hitting O, whilst still holding Ctrl (might seem confusing but it'll become intuitive). On the Left of the window should be an icon that looks like a file - click that to open the file browser, and check the files in the course appear there. Whenever you continue the course, do this to make sure you have the right folder open in VS Code.
+
+END OF LESSON
+-------------
