@@ -49,6 +49,10 @@ for item in newList:
 # `item` can be whatever you want, so choose a name that makes sense - for example if looping over a list of the names of people, `names`, then you might do:
 # `for name in names:`
 
+# you can also use the `in` operator to test if an element is in an array:
+if "zero" in newList:
+    print("found zero!")
+
 # we can also slice lists:
 print(newList[0:2])
 # note the first entry is inclusive and the second is exclusive
@@ -67,5 +71,8 @@ print(newList[-2])
 # using a lot of your skills so far, here's a fun challenge - try to write a program that when run keeps asking the user if they want to enter another number. If they say "yes", then ask them for a number. When they say "no", print out all the numbers, then also tell the user what the sum of all their numbers is. (Make sure it works if they just enter "no" immediately!) If you encounter challenges, Google and StackOverflow are your friends, and maybe come back to it tomorrow if it's still not working. If you really can't get it done, let me know and I'll happily help :)
 
 # send me the program when it's done
+
+# and finally, you can use the `index()` method to get the index of an element in an array, if exists - if doesn't, you'll get an error (you can avoid this by, for example, checking using `in` first)
+print(newList.index("two"))
 
 # END OF LESSON

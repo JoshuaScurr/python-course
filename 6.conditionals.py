@@ -68,6 +68,12 @@ print("moo") if True else print("baa")
 # a useful example (`%` is the modulo operator)
 num = 4
 numOddEven = "even" if num % 2 == 0 else "odd"
+# note modulo can be useful for modular aritmetic too:
+# eg:
+for x in range(100):
+    y = x % 3
+    print(x+y)
+    # etc.
 
 
 # test yourself - write a program (call it `nameCheck.py`) that asks the user for their name, then their age, then their favourite number. If their name is "Anna", tell them they're a silly billy, if their name is "Josh", tell them they're a god. Otherwise, tell them what their age times their favourite number is.
